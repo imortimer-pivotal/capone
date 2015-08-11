@@ -647,6 +647,20 @@ public class FlappingHealthIndicator implements HealthIndicator{
 </div>
 </li>
 <li>
+<p>Add the import statements for HealthIndicator:</p>
+<div class="listingblock">
+<div class="content">
+<pre>
+import org.springframework.boot.actuate.health.Health;
+import org.springframework.boot.actuate.health.HealthIndicator;
+import org.springframework.stereotype.Component;</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>This demo health indicator will randomize the health check.</p>
+</div>
+</li>
+<li>
 <p>Build the application:</p>
 <div class="listingblock">
 <div class="content">
